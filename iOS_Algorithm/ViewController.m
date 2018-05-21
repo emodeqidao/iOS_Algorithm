@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "Recursion.h"
+
 @interface ViewController ()
 
 @end
@@ -17,7 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    Recursion *re = [[Recursion alloc] init];
+//    [re doSimpleRecursion:10];
+//    [re doSimpleRecursion:20];
+    [re doGoodRecursion:1000];
 }
+
 
 
 - (void)didReceiveMemoryWarning {
