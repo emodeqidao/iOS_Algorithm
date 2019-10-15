@@ -27,7 +27,7 @@
     [re doGoodRecursion:1000];
     
     BigNumSum *bs = [[BigNumSum alloc] init];
-    NSLog(@"%@", [bs bigNumSun:@"827382732890883" secionNum:@"283262372959"]);
+    NSLog(@"%@", [bs bigNumSun:@"1239" secionNum:@"321"]);
 }
 
 

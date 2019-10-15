@@ -49,7 +49,7 @@
         tempInt += [secondArray[i] integerValue];
         
         //如果相加大于10 则进一位
-        if (tempInt > 10)
+        if (tempInt >= 10)
         {
             tempInt = tempInt - 10;
             resultArray[i + 1] = @(1);
