@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import "Recursion.h"
+#import "BigNumSum.h"
 
 @interface ViewController ()
 
@@ -24,6 +25,9 @@
 //    [re doSimpleRecursion:10];
 //    [re doSimpleRecursion:20];
     [re doGoodRecursion:1000];
+    
+    BigNumSum *bs = [[BigNumSum alloc] init];
+    NSLog(@"%@", [bs bigNumSun:@"827382732890883" secionNum:@"283262372959"]);
 }
 
 
